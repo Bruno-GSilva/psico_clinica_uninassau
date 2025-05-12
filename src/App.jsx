@@ -6,10 +6,10 @@ function App() {
       <h5 className='absolute bottom-0 right-0 m-4 text-xs sm:text-sm'>TODOS OS DIREITOS RESERVADOS</h5>
 
 
-      <div className='w-full max-w-5xl h-auto z-20 bg-white p-4 sm:p-8 relative shadow-2xl flex flex-col md:flex-row gap-4 overflow-hidden rounded-md'>
+      <div className='w-full max-w-5xl h-auto z-20 bg-white  relative shadow-2xl flex flex-col md:flex-row gap-4 overflow-hidden rounded-md'>
 
         {/* Lado Esquerdo */}
-        <div className='w-full md:w-1/2 bg-amber-500 relative p-4 gap-4 flex flex-col justify-center items-center'>
+        <div className='w-full md:w-1/2 bg-amber-500 relative p-10 gap-4 flex flex-col justify-center items-center'>
           <div className='text-center'>
             <h2 className='text-white text-2xl sm:text-3xl font-semibold'>Olá.</h2>
             <h1 className='text-white text-3xl sm:text-4xl font-bold'>Seja Bem-vindo!</h1>
@@ -21,7 +21,7 @@ function App() {
         </div>
 
         {/* Lado Direito */}
-        <div className='w-full md:w-1/2 bg-white relative p-4 gap-4 flex flex-col justify-center items-center'>
+        <div className='w-full md:w-1/2 bg-white relative p-10 gap-4 flex flex-col justify-center items-center'>
           <h5 className='text-2xl sm:text-3xl my-4 font-bold text-center'>Crie sua conta</h5>
           <div className='flex flex-col w-full max-w-sm'>
             <label htmlFor="email">Email:</label>
